@@ -11,7 +11,7 @@ export default function MainContent() {
         const formData = new FormData(event.currentTarget)
         const newIngredient = formData.get("ingredient")
         
-        setIngredients([...ingredients, newIngredient])
+        setIngredients(prev => [...prev, newIngredient])
         setIngredientText("")
     }
 
