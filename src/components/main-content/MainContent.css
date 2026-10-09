@@ -28,9 +28,18 @@ main {
     width: 150px;
     font-size: 14px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .add-ingredient-form > button::before {
     content: "+";
     margin-right: 5px;
+}
+
+.add-ingredient-form > button:active {
+    box-shadow: inset 0 0 5px #C1C1C1;
+}
+
+li {
+    
 }
