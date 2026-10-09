@@ -32,6 +32,8 @@ export default function MainContent() {
                 />
                 <button>Add Ingredient</button>
             </form>
+
+            {ingredients.length > 0 && <h1>Ingredients on hand:</h1>}
             <ul>
                 {ingredients.map((ingredient => {
                     return <li>{ingredient}</li>

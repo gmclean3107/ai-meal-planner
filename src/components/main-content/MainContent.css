@@ -1,5 +1,9 @@
 main {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
     padding: 30px 30px 10px;
+    width: 600px;
 }
 
 .add-ingredient-form {
@@ -40,6 +44,15 @@ main {
     box-shadow: inset 0 0 5px #C1C1C1;
 }
 
+h1 {
+    color: #141413;
+    font-size: 30px;
+    font-weight: 600;
+}
+
 li {
-    
+    font-weight: 400;
+    font-size: 18px;
+    color: #475467;
+    padding-bottom: 20px;
 }
